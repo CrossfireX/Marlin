@@ -1,0 +1,37 @@
+
+M303 E0 S200 C8
+
+M301 P17.80 I0.64 D123.97
+
+
+ M500
+
+
+Recv: #define  DEFAULT_Kp 17.89
+Recv: #define  DEFAULT_Ki 0.66
+Recv: #define  DEFAULT_Kd 121.30
+
+
+Recv: #define  DEFAULT_Kp 19.68
+Recv: #define  DEFAULT_Ki 0.76
+Recv: #define  DEFAULT_Kd 127.35
+
+Recv: #define  DEFAULT_Kp 17.80
+Recv: #define  DEFAULT_Ki 0.64
+Recv: #define  DEFAULT_Kd 123.97
+
+
+M301 P18.70 I0.73 D119.85
+
+PID Autotune finished! Put the last Kp, Ki and Kd constants from below into Configuration.h
+Recv: #define  DEFAULT_Kp 18.00
+Recv: #define  DEFAULT_Ki 0.69
+Recv: #define  DEFAULT_Kd 117.26
+
+M303 E0 C5 S210
+Recv: #define DEFAULT_Kp 15.79
+Recv: #define DEFAULT_Ki 0.53
+Recv: #define DEFAULT_Kd 117.70
+
+M301 P15.79 I0.53 D117.70
+
