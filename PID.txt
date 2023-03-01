@@ -1,19 +1,27 @@
-#define DEFAULT_Kp 18.00
-#define DEFAULT_Ki 0.65
-#define DEFAULT_Kd 124.59
+#define DEFAULT_Kp 18.82
+#define DEFAULT_Ki 0.71
+#define DEFAULT_Kd 124.86
 
-#define DEFAULT_bedKp 161.54
-#define DEFAULT_bedKi 31.81
-define DEFAULT_bedKd 546.97
+#define DEFAULT_bedKp 98.95
+#define DEFAULT_bedKi 19.48
+#define DEFAULT_bedKd 335.05
 
 M303 E0 C8 S210
 
 M303 E-1 C8 S70
 
-M301 P18 I0.65 D124.59
+M301 P18.82 I0.71 D124.86
 
-M304 P161.54 I31.81 D546.97
+M304 P98.95 I19.48 D335.05
 
 M500
 
 Show all: M503
+
+Recv: #define DEFAULT_Kp 18.82
+Recv: #define DEFAULT_Ki 0.71
+Recv: #define DEFAULT_Kd 124.86
+
+Recv: #define DEFAULT_bedKp 98.95
+Recv: #define DEFAULT_bedKi 19.48
+Recv: #define DEFAULT_bedKd 335.05
