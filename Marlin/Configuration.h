@@ -663,13 +663,13 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify up to one value per hotend here, according to your setup.
     // If there are fewer values, the last one applies to the remaining hotends.
-    #define DEFAULT_Kp_LIST {  18.82,  18.82 }
-    #define DEFAULT_Ki_LIST {   0.71,   0.71 }
-    #define DEFAULT_Kd_LIST { 124.86, 124.86 }
+    #define DEFAULT_Kp_LIST {  16.60,  16.60 }
+    #define DEFAULT_Ki_LIST {   0.60,   0.60 }
+    #define DEFAULT_Kd_LIST { 114.29, 1114.29 }
   #else
-    #define DEFAULT_Kp 18.82
-    #define DEFAULT_Ki 0.71
-    #define DEFAULT_Kd 124.86
+    #define DEFAULT_Kp 16.60
+    #define DEFAULT_Ki 0.60
+    #define DEFAULT_Kd 114.29
   #endif
 #endif
 
@@ -1243,7 +1243,7 @@
  * Override with M201
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 800, 800, 100, 10000 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
